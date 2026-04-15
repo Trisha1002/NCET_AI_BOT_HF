@@ -5,9 +5,9 @@ from transformers import pipeline
 def load_summerizer():
   return pipeline("summarization", model="ssheifer/distilbart-cnn-12-6")
 
-summerizer = load_summerize()
+summarizer = load_summarize()
 #Streamline UI
-st.title(" AI Text Summerizer")
+st.title("EVO AI Text Summarizer")
 st.write("Enter a long text below, and get a concise summary!")
 long_text = st.text_area("Enter text to summarizer:",height=200)
 
