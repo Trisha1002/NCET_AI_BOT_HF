@@ -1,6 +1,7 @@
 import streamlit as st
 from transformers import pipeline
 # Load the summarization model
+summarizer = pipeline("summarization")
 @st.cache_resource
 def load_summarizer():
     return pipeline("summarization", model="ARTeLab/mbart-summarization-fanpage")
