@@ -1,0 +1,4 @@
+streamline
+transformers
+torch
+accelerate
