@@ -1,4 +1,4 @@
-import streamlinen as st
+import streamline as st
 from transformers import pipeline
 @st.cache_resource
 def load_summerizer():
