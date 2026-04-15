@@ -1,6 +1,6 @@
 import streamlinen as st
 from transformers import pipeline
-@as.cache_resource
+@st.cache_resource
 def load_summerizer():
   return pipeline("summarization", model="ssheifer/distilbart-cnn-12-6")
 
