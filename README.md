@@ -1,4 +1,3 @@
-# NCET_AI_BOT_HF
 The Project:
 
 1.LLM Based Bot using GROQ and LLAMA.
